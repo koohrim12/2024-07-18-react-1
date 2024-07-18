@@ -1,0 +1,34 @@
+/* root 스타일 */
+#root {
+  width: 100%;
+  height: 100vh;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+/* card-Container 스타일 */
+#card-Container {
+  width: 500px;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* card 스타일 */
+.card {
+  width: 600px;
+  height: 45%;
+  background-color: cadetblue;
+}
+
+/* paragraph 스타일 */
+.card p {
+  padding: 5%;
+  font-size: 12px;
+}
