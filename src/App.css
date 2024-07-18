@@ -1,4 +1,7 @@
-/* root 스타일 */
+body {
+  margin: 0;
+  padding: 0;
+}
 #root {
   width: 100%;
   height: 100vh;
@@ -6,10 +9,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
 }
 
-/* card-Container 스타일 */
 #card-Container {
   width: 500px;
   height: 90%;
@@ -20,14 +21,12 @@
   gap: 20px;
 }
 
-/* card 스타일 */
 .card {
   width: 600px;
   height: 45%;
   background-color: cadetblue;
 }
 
-/* paragraph 스타일 */
 .card p {
   padding: 5%;
   font-size: 12px;
